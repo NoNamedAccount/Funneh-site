@@ -41,12 +41,11 @@ main h1 {
 
 .teachers {
     display: flex;
-    height: 147px;
     justify-content: center;
 }
 
 .teachers img {
-    margin-left: 50px;
+   margin-left: 50px;
     margin-right: 50px;
 }
 
@@ -65,9 +64,20 @@ rgb(0,0,0) );
     text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-size: large;
+    font-size: 30px;
 }
 
 .VseYroky p {
     position: relative;
     left: 17px;
+    font-size: 40px;
+}
+
+header p{
+    font-size: larger;
+}
+
+.text2 {
+    font-size: 25px;
 }
