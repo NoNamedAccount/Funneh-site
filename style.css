@@ -20,13 +20,20 @@ nav {
 
 
 .schoolimages {
-    width: 249px;
-    height: 141px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
 }
 
-main {
+
+
+.news {
     background-image: linear-gradient(rgb(249,223,77), #9d8b1d);
+    width: 70%;
+    height: 40%;
     position: relative;
+    left: 15%;
 }
 
 .textimg {
@@ -37,9 +44,9 @@ main {
 }
 
 main p {
-    width: 514px;
-    height: 272px;
-    font-size: large;
+    width: 75%;
+    height: 150px;
+    font-size: 25px;
     margin-left: 13px;
     margin-bottom: 15px;
 }
@@ -55,12 +62,11 @@ main h1 {
 
 .teachers {
     display: flex;
-    height: 147px;
     justify-content: center;
 }
 
 .teachers img {
-    margin-left: 50px;
+   margin-left: 50px;
     margin-right: 50px;
 }
 
@@ -73,4 +79,8 @@ footer {
     margin-bottom: 0px;
     background-image: linear-gradient(rgb(55,82,55), 
 rgb(0,0,0) );
+}
+
+.text2 {
+    font-size: 25px;
 }
