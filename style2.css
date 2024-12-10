@@ -72,6 +72,7 @@ h2 {
 footer {
     background-image: linear-gradient(rgb(55,82,55), 
 rgb(0,0,0) );
+padding: 10px;
 }
 
 .news {
