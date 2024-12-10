@@ -12,7 +12,7 @@ nav {
     font-size: x-large;
     display: flex;
     justify-content: space-around;
-    background-color: #4A774A;
+    background-image: linear-gradient(#becadf, #51C251);
     color: white;
     margin-left: 5px;
     margin-right: 5px;
@@ -57,6 +57,7 @@ h2 {
 footer {
     background-image: linear-gradient(rgb(55,82,55), 
 rgb(0,0,0) );
+padding: 10px;
 }
 
 .VseYroky {
@@ -80,4 +81,32 @@ header p{
 
 .text2 {
     font-size: 25px;
+}
+
+.social {
+    display: block;
+    position: relative;
+    width: 50px;
+    left: 25px;
+    margin-bottom: 5px;
+}
+
+aside {
+    position: fixed;
+    right:0px;
+    top:95%;
+    border: solid #00FF00 5px;
+    border-radius: 5%;
+    color:white;
+    width: 130px;
+    height: 50%;
+    background-color: #00FF00;
+    text-align: center;
+    font-size: large;
+    transition: 1s ease-out;
+}
+
+aside:hover {
+    top:70%;
+    transition: 1s ease-out;
 }
