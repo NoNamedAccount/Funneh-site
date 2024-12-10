@@ -12,7 +12,7 @@ nav {
     font-size: x-large;
     display: flex;
     justify-content: space-around;
-    background-color: #4A774A;
+    background-image: linear-gradient(#becadf, #51C251);
     color: white;
     margin-left: 5px;
     margin-right: 5px;
@@ -41,16 +41,16 @@ main {
 }
 
 main p {
-    width: 514px;
+    width: 50%;
     height: 272px;
-    font-size: large;
+    font-size: 25px;
     margin-left: 13px;
     margin-bottom: 15px;
 }
 
 main h1 {
     text-align: left;
-    margin-left: 11px;
+    margin-left: 26px;
 }
 
 .teachers {
@@ -72,8 +72,41 @@ h2 {
 footer {
     background-image: linear-gradient(rgb(55,82,55), 
 rgb(0,0,0) );
+padding: 10px;
 }
 
 .news {
     background-image: linear-gradient(rgb(249,223,77), #9d8b1d);
+    width: 70%;
+    height: 35%;
+    position: relative;
+    left: 15%;
+}
+
+.social {
+    display: block;
+    position: relative;
+    width: 50px;
+    left: 25px;
+    margin-bottom: 5px;
+}
+
+aside {
+    position: fixed;
+    right:0px;
+    top:95%;
+    border: solid #00FF00 5px;
+    border-radius: 5%;
+    color:white;
+    width: 130px;
+    height: 50%;
+    background-color: #00FF00;
+    text-align: center;
+    font-size: large;
+    transition: 1s ease-out;
+}
+
+aside:hover {
+    top:70%;
+    transition: 1s ease-out;
 }
